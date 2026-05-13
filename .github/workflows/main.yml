@@ -1,0 +1,21 @@
+name: hellow world
+
+on:
+  workflow_dispatch: 
+
+    jobs:
+
+      hello:
+       runs-on: ubuntu-latest
+       name: Say hello to me
+
+       Steps:
+         - name: Say hello
+           run: echo "hello world"
+
+           -nmae: Show the runner OS
+            run: uname -a
+
+            -name: show current details
+            run:
+      
